@@ -1,0 +1,19 @@
+.product__swiper{
+    .swiper__block{
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+    
+        .swiper__img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .swiper-button-prev{
+            color: #2B2B2B;
+        }
+        .swiper-button-next{
+            color: #2B2B2B;
+        }
+    }
+}

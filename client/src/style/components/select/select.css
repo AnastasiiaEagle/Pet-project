@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.select {
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #B4E2DA;
+  overflow: hidden;
+}
+.select::after {
+  content: "▼";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #B4E2DA;
+  color: #2b2b2b;
+  transition: 0.25s all ease;
+  pointer-events: none;
+}
+.select:hover::after {
+  color: #319684;
+}
+.select select {
+  /* Reset Select */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #2b2b2b;
+  background-color: #fff;
+  background-image: none;
+  cursor: pointer;
+}
+.select select::-ms-expand {
+  display: none;
+}

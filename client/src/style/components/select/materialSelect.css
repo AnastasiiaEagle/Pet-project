@@ -1,0 +1,47 @@
+.material_inf {
+  width: 150px;
+}
+.material_inf + .material_inf {
+  margin-left: 32px;
+}
+.material_inf .material_inf__img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.material_inf .material_inf__img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.material_select {
+  position: relative;
+  display: flex;
+  height: 25px;
+  border-radius: 2px;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.material_select select {
+  /* Reset Select */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #2b2b2b;
+  background-color: #fff;
+  background-image: none;
+  cursor: pointer;
+}
+.material_select select::-ms-expand {
+  display: none;
+}

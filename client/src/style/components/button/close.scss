@@ -1,0 +1,17 @@
+.close_btn{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #E43B3B;
+    padding: 9px 24px;
+    border: 2px solid #E43B3B;
+    transition: all .5s;
+    border-radius: 5px;
+
+    &:hover{
+        border: 2px solid #a52a2a;
+    }
+}

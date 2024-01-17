@@ -1,0 +1,15 @@
+.btn_add{
+    cursor: pointer;
+    background: #54AA35;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: 2px solid #54AA35;
+    transition: all .5s;
+
+    &:hover{
+        border: 2px solid #346920;
+    }
+}

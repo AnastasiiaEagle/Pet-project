@@ -1,0 +1,60 @@
+.header{
+    background: #2B2B2B;
+    padding: 15px 0;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(47, 47, 47, 0.3);
+    
+
+    .logo{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .header__box{
+        position: relative;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 0px;
+
+        .menu__item{
+            &+.menu__item{
+                margin-left: 32px;
+            }
+            .item_link{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                transition: all .5s;
+
+                &:hover{
+                    color: #ffff42
+                }
+            }
+        }
+    }
+    .header__basket{
+
+        .basket__link{
+            display: flex;
+            align-items: center;
+
+            .basket__text{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                margin-right: 10px;
+                transition: all .3s;
+
+                &:hover{
+                    color: #ffff42
+                }
+            }
+            .basket__img{
+                width: 32px;
+                height: 32px;
+            }
+            
+        } 
+    }
+}

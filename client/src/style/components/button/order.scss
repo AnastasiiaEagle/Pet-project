@@ -1,0 +1,18 @@
+.btn_order{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    background: #54AA35;
+    border: 2px solid #54AA35;
+    
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 9px 24px;
+    transition: all .5s;
+
+    &:hover{
+        border: 2px solid #3c7926;
+    }
+}

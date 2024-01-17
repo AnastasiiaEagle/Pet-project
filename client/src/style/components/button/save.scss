@@ -1,0 +1,18 @@
+.save_btn{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #54AA35;
+    padding: 9px 24px;
+    border: 2px solid #54AA35;
+    transition: all .5s;
+    border-radius: 5px;
+    margin-right: 20px;
+
+    &:hover{
+        border: 2px solid #3c7926;
+    }
+}

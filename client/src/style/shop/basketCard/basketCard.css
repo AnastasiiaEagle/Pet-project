@@ -1,0 +1,116 @@
+.basket_box {
+  position: relative;
+}
+.basket_box .basket-card {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 25px 20px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  color: #2b2b2b;
+}
+.basket_box .basket-card .grid {
+  display: grid;
+  grid-template-columns: 342px 1fr;
+}
+.basket_box .basket-card .grid .basket-card__img {
+  width: 342px;
+  height: 342px;
+  overflow: hidden;
+}
+.basket_box .basket-card .grid .basket-card__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.basket_box .basket-card .grid .basket-card__inf {
+  position: relative;
+  padding-left: 32px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__size {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__list {
+  display: flex;
+  justify-content: start;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__list .list__item .item_img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__list .list__item .item_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__list .list__item .item_name {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+  max-width: 150px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__list .list__item + .list__item {
+  margin-left: 32px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__down {
+  position: absolute;
+  bottom: 0;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__down .cost {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.basket_box .basket-card .grid .basket-card__inf .basket-card__down .number {
+  margin-left: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.basket_box .basket-card .btn_dump {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 2px;
+  border: none;
+  background-color: #BE2F2F;
+  transition: all 0.3s;
+}
+.basket_box .basket-card .btn_dump:hover {
+  background-color: #db3f3f;
+}
+.basket_box .order {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.basket_box .order .sum_cost {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+}
+.basket_box .order .sum_cost span {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+}

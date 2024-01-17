@@ -1,0 +1,81 @@
+.main_content {
+  display: grid;
+  grid-template-columns: 360px auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #6dc395;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7d7d7d;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline-color: #34e486;
+  transition: all 0.5s;
+}
+.input.error {
+  border: 1px solid #a52a2a;
+  outline-color: #a52a2a;
+}
+.input + .input {
+  margin-left: 20px;
+}
+.input.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  float: right;
+}
+
+.upload_btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex .photo {
+  width: 270px;
+  height: 170px;
+}
+.flex .photo .img {
+  width: 100%;
+  height: 100%;
+}
+.flex .data {
+  margin-left: 20px;
+}
+.flex .select {
+  margin-top: 33px;
+  margin-left: 20px;
+}
+.flex.cost {
+  max-width: 400px;
+}

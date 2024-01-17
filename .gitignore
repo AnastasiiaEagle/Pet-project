@@ -1,0 +1,11 @@
+
+client/node_modules
+client/.pnp
+client/public
+.pnp.js
+server/node_modules
+server/uploads
+server/database
+*.cmd
+*.env
+

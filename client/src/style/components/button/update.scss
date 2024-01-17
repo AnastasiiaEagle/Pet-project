@@ -1,0 +1,16 @@
+.update_btn{
+    cursor: pointer;
+    background: #D2C22C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: 2px solid #D2C22C;
+    transition: all .5s;
+    margin-right: 20px;
+
+    &:hover{
+        border: 2px solid #ffeb37;
+    }
+}

@@ -1,0 +1,14 @@
+.inf_order_btn {
+  cursor: pointer;
+  background: #D2C22C;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: 2px solid #D2C22C;
+  transition: all 0.5s;
+}
+.inf_order_btn:hover {
+  border: 2px solid #ffeb37;
+}

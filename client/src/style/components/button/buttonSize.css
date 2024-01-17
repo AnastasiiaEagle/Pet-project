@@ -1,0 +1,13 @@
+.button {
+  cursor: pointer;
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button + .button {
+  margin-left: 20px;
+}
+.button.active {
+  background: #8a8a8a;
+}

@@ -1,0 +1,92 @@
+.main__product {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.main__product .product__grid {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+.main__product .product__grid .product__inf {
+  color: #2b2b2b;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.main__product .product__grid .product__inf .name_type {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 13px;
+}
+.main__product .product__grid .product__inf .name {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+.main__product .product__grid .product__inf .description {
+  width: 514px;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+.main__product .product__grid .product__inf form .product__zise_list {
+  margin-bottom: 15px;
+}
+.main__product .product__grid .product__inf form .product__zise_list .button {
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main__product .product__grid .product__inf form .product__zise_list .button + .button {
+  margin-left: 20px;
+}
+.main__product .product__grid .product__inf form .product__zise_list .button.active {
+  background: #8a8a8a;
+}
+.main__product .product__grid .product__inf form .product__material .material_swiper {
+  display: flex;
+}
+.main__product .product__grid .product__inf form .product__material .material_swiper .material_inf {
+  width: 250px;
+}
+.main__product .product__grid .product__inf form .product__material .material_swiper .material_inf + .material_inf {
+  margin-left: 32px;
+}
+.main__product .product__grid .product__inf form .product__material .material_swiper .material_inf .material_inf__img {
+  width: 250px;
+  height: 220px;
+  overflow: hidden;
+}
+.main__product .product__grid .product__inf form .product__material .material_swiper .material_inf .material_inf__img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__product .product__grid .product__inf form .product__cost {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.main__product .product__grid .product__inf form .product__cost .cost {
+  position: relative;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+}
+.main__product .product__grid .product__inf form .product__cost .cost .discount {
+  position: absolute;
+  top: -15px;
+  color: red;
+}
+.main__product .product__grid .product__inf form .product__cost .input_number {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.main__product .product__grid .product__inf form .product__cost .input_number .input_number__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 10px;
+}

@@ -1,0 +1,64 @@
+.menu__select {
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 41px;
+  border-radius: 2px;
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.menu__select::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  border: 1px solid #2B2B2B;
+  transform: rotate(34.7deg);
+  background-color: #2B2B2B;
+  transition: 0.25s all ease;
+  pointer-events: none;
+  right: 20px;
+  bottom: 21px;
+}
+.menu__select:hover::after {
+  color: #000;
+}
+.menu__select::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  border: 1px solid #2B2B2B;
+  transform: rotate(-34.7deg);
+  background-color: #2B2B2B;
+  transition: 0.25s all ease;
+  pointer-events: none;
+  right: 20px;
+  top: 21px;
+}
+.menu__select:hover::before {
+  color: #000;
+}
+.menu__select select {
+  /* Reset Select */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #2b2b2b;
+  background-color: #fff;
+  background-image: none;
+  cursor: pointer;
+}
+.menu__select select::-ms-expand {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.header__name{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+} 
+.exit{
+    cursor: pointer;
+    background-color: #f94848;
+    color: #ffffff;
+    border:none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all .5s;
+    padding: 10px 15px;
+
+    &:hover{
+        background-color: #ff9696;
+    }
+}

@@ -1,0 +1,81 @@
+.product_show {
+  position: relative;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 4px rgba(47, 47, 47, 0.15);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.product_show .product_show__top {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+}
+.product_show .product_show__top .product_show__swiper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product_show .product_show__top .product_show__content {
+  margin: 20px;
+  color: #2B2B2B;
+  font-weight: 500;
+}
+.product_show .product_show__top .product_show__content .name_type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.product_show .product_show__top .product_show__content .name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.product_show .product_show__top .product_show__content .description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.product_show .product_show__top .product_show__content .more {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  float: right;
+}
+.product_show .product_show__inf {
+  margin: 20px;
+}
+.product_show .product_show__inf .size {
+  display: flex;
+  padding: 10px 0;
+}
+.product_show .product_show__inf .size .size_tovar, .product_show .product_show__inf .size .meter {
+  width: 270px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2B2B;
+}
+.product_show .product_show__inf .size + .size {
+  border-top: 1px solid #2B2B2B;
+}
+.product_show .product_show__down {
+  padding: 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product_show .product_show__down .product_show__cost {
+  display: flex;
+}
+.product_show .product_show__down .product_show__cost .cost, .product_show .product_show__down .product_show__cost .discount {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2B2B2B;
+}
+.product_show .product_show__down .product_show__cost .cost {
+  margin-right: 20px;
+}

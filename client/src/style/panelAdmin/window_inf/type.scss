@@ -1,0 +1,18 @@
+.type{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(47, 47, 47, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 500;
+
+    .name{
+        font-size: 16px;
+        line-height: 20px;
+        color: #2B2B2B;
+    }
+}

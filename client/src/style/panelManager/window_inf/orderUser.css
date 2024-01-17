@@ -1,0 +1,55 @@
+.order_user {
+  margin-top: 20px;
+  padding: 20px;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 4px rgba(47, 47, 47, 0.15);
+  border-radius: 5px;
+  color: #2b2b2b;
+}
+.order_user .order_user__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_user .order_user__top .order_user__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.order_user .order_user__top .order_user__comm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order_user .order_user__top .order_user__comm .order_user__phone {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 50px;
+}
+.order_user .order_user__top .order_user__comm .order_user__email {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.order_user .order_user__inf {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_user .order_user__inf .inf__date {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.order_user .order_user__inf .inf__number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.order_user .order_user__inf .inf__status {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
